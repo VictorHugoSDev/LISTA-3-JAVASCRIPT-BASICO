@@ -5,8 +5,8 @@ var nomesAlunos = new Array(qtdAlunos);
 var idadeAlunos =  new Array(qtdAlunos);
 
 for(i = 0; i < qtdAlunos; i++){
-    nomesAlunos[i] = prompt(`Qual o nome do(a) aluno(a) ${i + 1}? º`);
-    idadeAlunos[i] = parseInt(prompt(`Qual a idade do(a) aluno(a) ${i + 1}? º`));
+    nomesAlunos[i] = prompt(`Qual o nome do(a) ${i + 1}º aluno(a)?`);
+    idadeAlunos[i] = parseInt(prompt(`Qual a idade do(a) ${i + 1}º aluno(a)?`));
 }
 
 var indice = parseInt(Math.random() * nomesAlunos.length);
