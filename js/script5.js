@@ -18,6 +18,7 @@ for(i = 0; i < qtdAlunos; i++){
 }
 
 media = somaIdade / qtdAlunos;
+media = media.toFixed(2);
 
 document.write(`<h1>A idade média dos alunos é: ${media}</h1>`);
 document.write(`<h1>O aluno ou aluna sorteado(a) para ganhar o almoço é: ${nomesAlunos[indice]}</h1>`);
