@@ -9,5 +9,5 @@ while(nrosUnicos.size < 6){
 
 var nrosSorteados = Array.from(nrosUnicos);
 
-document.write(`<h1>NÚMEROS DA MEGA-SENA`)
-document.write(`<p>${nrosSorteados.join(' - ')}</p>`);
+document.write(`<h1>NÚMEROS DA MEGA-SENA</h1>`)
+document.write(`<h2 style="color: darkblue";>${nrosSorteados.join(' - ')}</h2>`);
